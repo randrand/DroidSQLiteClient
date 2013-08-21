@@ -1,3 +1,7 @@
+/*
+* Store queried zipcode/temperature pair in a local database.
+* Author: JJ
+*/
 package com.example.weatherjingjing;
 
 //import android.R;
