@@ -1,29 +1,25 @@
 package com.example.weatherjingjing;
 
 public class TableEntry {
-	
-	     
-	    //private variables
+	    // Names of entries
 	    String zipcode;
 	    String date;
-	    String temp;
-	     
-	    // Empty constructor
+	    String temp; // temperature
+
 	    public TableEntry(){
-	         
 	    }
-	    public TableEntry(String zipcode, String date, String temp){
-	    this.zipcode=zipcode;
-	    this.date=date;
-	    this.temp=temp;
-	    }   
+	    
+	    public TableEntry(String zipcode, String date, String temp) {
+	    	this.zipcode=zipcode;
+	    	this.date=date;
+	    	this.temp=temp;
+	    }
+	    
 	    public String getDate(){
-		   return this.date;
-		   
-		    }   
+		return this.date;
+	    }   
 	    
 	    public String getTemp(){
-			   return this.temp;
-			   
-			    }   
+		return this.temp;
+	   }   
 }
